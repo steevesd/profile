@@ -1,12 +1,22 @@
 .container {
-  background: rgb(72, 28, 13);
+  background: rgb(249, 238, 234);
   font-family: 'Montserrat', sans-serif;
   color: rgb(7, 6, 5);
   font-size: bold;
   line-height: 2;
   text-align: center;
   margin: 0 auto;
-  width: 400px;
+  width: 1000px;
+}
+
+.banner {
+  padding: 24px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.intro {
+  padding: 24px;
 }
 
 img.profile {
@@ -42,20 +52,23 @@ a:-webkit-any-link {
   text-decoration: none;
 }
 
-.list-inline {
+.list-inline ul li{
+  background-color: rgba(229, 162, 79, 1);
   list-style: none;
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 48px;
+  width: 10%;
+  margin: 24px;
 }
 
+
 div.lesson1, div.lesson2, div.lesson3, div.closing {
-  border: 4px solid rgba(229, 162, 79, 1);
   background: white;
-  padding: 30px;
+  padding: 24px;
   border-radius: 4px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  border-style: outset;
-  margin: 20px;
+  box-shadow: 0 10px 30px rgb(213, 162, 111);
+  margin: 60px;
+
 }
 
 @media (max-width: 960px) {
