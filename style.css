@@ -1,0 +1,74 @@
+.container {
+  background: rgb(247, 247, 247);
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(7, 6, 5);
+  font-size: bold;
+  line-height: 2;
+  text-align: center;
+  margin: 0 auto;
+  background-image:url('myImage.gif'); background-repeat:repeat;
+}
+
+img.profile {
+  border-radius: 70%;
+}
+
+img {
+  height: auto;
+  width: 40%;
+}
+
+h2 {
+  font-family: 'DM Sans', sans-serif;
+  color: rgb(229, 162, 79);
+  font-size: 200;
+  line-height: 2;
+}
+
+a:hover {
+  background-color: rgba(229, 162, 79, 1);
+  font-family: 'DM Sans', sans-serif;
+  color: rgb(51, 97, 183);
+  font-size: 200;
+  line-height: 2;
+  text-decoration: none;
+  text-align: left;
+  list-style: none;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+div.lesson1, div.lesson2, div.lesson3, div.closing {
+  border: 4px solid rgba(229, 162, 79, 1);
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-style: outset;
+  margin: 20px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
