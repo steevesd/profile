@@ -1,12 +1,12 @@
 .container {
-  background: rgb(247, 247, 247);
+  background: rgb(72, 28, 13);
   font-family: 'Montserrat', sans-serif;
   color: rgb(7, 6, 5);
   font-size: bold;
   line-height: 2;
   text-align: center;
   margin: 0 auto;
-  background-image:url('myImage.gif'); background-repeat:repeat;
+  width: 400px;
 }
 
 img.profile {
@@ -25,7 +25,7 @@ h2 {
   line-height: 2;
 }
 
-a:hover {
+.closing .btn:hover {
   background-color: rgba(229, 162, 79, 1);
   font-family: 'DM Sans', sans-serif;
   color: rgb(51, 97, 183);
@@ -44,7 +44,8 @@ a:-webkit-any-link {
 
 .list-inline {
   list-style: none;
-  padding-left: 0px;
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 div.lesson1, div.lesson2, div.lesson3, div.closing {
@@ -62,11 +63,13 @@ div.lesson1, div.lesson2, div.lesson3, div.closing {
     width: 700px;
   }
 }
+
 @media (max-width: 720px) {
   .container {
     width: 500px;
   }
 }
+
 @media (max-width: 540px) {
   .container {
     width: 300px;
